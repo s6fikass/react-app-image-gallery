@@ -1,0 +1,77 @@
+:root {
+  --primary: #3e416d;
+}
+
+.container {
+  width: 100vw;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  box-shadow: 0 5px 15px #00000014;
+  border-radius: 0.25rem;
+  width: 100%;
+  max-width: 450px;
+}
+
+.title {
+  color: var(--primary) !important;
+  text-align: center;
+}
+
+.subtitle {
+  display: block;
+  text-align: center;
+}
+
+.form {
+  margin-top: 1.5rem !important;
+}
+
+.formLabel {
+  color: var(--primary);
+  font-size: 1rem;
+}
+
+.input {
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+}
+
+.prefixIcon {
+  color: gray !important;
+  margin-inline-end: 0.5rem;
+}
+
+.footer {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.smallFooter {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button {
+  border-radius: 0.25rem;
+  height: auto;
+  width: 100%;
+}
+
+.linkButton {
+  padding: 0.5rem 0.2rem !important;
+  height: auto;
+}
+
+.buttonIcon {
+  margin-inline-end: 1rem;
+}
+
+.authButton {
+  margin: 0.5rem 0;
+}

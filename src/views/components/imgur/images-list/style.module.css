@@ -1,0 +1,19 @@
+.list {
+  padding: 1rem 4rem;
+}
+
+.modal {
+  height: 75vh;
+  overflow-y: scroll;
+}
+
+.modalImage {
+  height: 50vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.text {
+  display: block;
+  margin: 0.5rem 0;
+}

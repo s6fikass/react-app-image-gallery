@@ -1,0 +1,21 @@
+.filters {
+  padding: 0 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item {
+  flex-grow: 2;
+  padding: 1rem;
+}
+
+.smallItem {
+  flex-grow: 1;
+  padding: 1rem;
+}
+
+.select {
+  display: block;
+  margin-top: 0.5rem;
+}
